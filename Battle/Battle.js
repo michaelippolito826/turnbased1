@@ -9,7 +9,7 @@ class Battle {
         xp: 75,
         maxXp: 100,
         level: 1,
-        status: { type: "saucy" },
+        // status: { type: "saucy" },
         isPlayerControlled: true
       }, this),
       "enemy1": new Combatant({
