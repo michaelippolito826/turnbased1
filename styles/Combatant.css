@@ -125,6 +125,7 @@
 .Pizza[data-team="enemy"] {
   top: 47px;
   right: 100px;
+  transform: scale(-2, 2);
 }
 .Pizza[data-active="false"] {
   opacity:0;
