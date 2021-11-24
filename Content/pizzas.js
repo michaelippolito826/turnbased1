@@ -8,16 +8,16 @@ window.PizzaTypes = {
 
 window.Pizzas = {
   "s001": {
-    name: "Slice Samurai",
+    name: "Zac",
     type: PizzaTypes.spicy,
     src: "/images/characters/pizzas/champs/tile000.png",
     icon: "/images/icons/spicy.png",
     actions: [ "saucyStatus", "clumsyStatus", "damage1" ],
   },
   "v001": {
-    name: "Call Me Kale",
+    name: "Fizz",
     type: PizzaTypes.veggie,
-    src: "/images/characters/pizzas/champs/tile024.png",
+    src: "/images/characters/pizzas/champs/tile001.png",
     icon: "/images/icons/veggie.png",
     actions: [ "damage1" ],
   },
