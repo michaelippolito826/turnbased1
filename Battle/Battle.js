@@ -10,6 +10,18 @@ class Battle {
         maxXp: 100,
         level: 1,
         // status: { type: "saucy" },
+        status: null,
+        isPlayerControlled: true
+      }, this),
+      "player2": new Combatant({
+        ...Champs.ashe,
+        team: "player",
+        hp: 30,
+        maxHp: 50,
+        xp: 75,
+        maxXp: 100,
+        level: 1,
+        status: null,
         isPlayerControlled: true
       }, this),
       "enemy1": new Combatant({
