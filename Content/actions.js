@@ -1,11 +1,11 @@
 window.Actions = {
-  damage1: {
-    name: "Whomp!",
-    description: "Pillowy punch of dough",
+  zacq: {
+    name: "Stretching Strikes",
+    description: "Clap Dem Cheeks (30)",
     success: [
       { type: "textMessage", text: "{CASTER} uses {ACTION}!"},
       { type: "animation", animation: "spin"},
-      { type: "stateChange", damage: 10}
+      { type: "stateChange", damage: 30}
     ]
   },
   saucyStatus: {

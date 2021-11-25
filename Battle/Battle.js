@@ -2,7 +2,7 @@ class Battle {
   constructor() {
     this.combatants = {
       "player1": new Combatant({
-        ...Pizzas.s001,
+        ...Champs.zac,
         team: "player",
         hp: 30,
         maxHp: 50,
@@ -13,7 +13,7 @@ class Battle {
         isPlayerControlled: true
       }, this),
       "enemy1": new Combatant({
-        ...Pizzas.v001,
+        ...Champs.fizz,
         team: "enemy",
         hp: 20,
         maxHp: 50,
@@ -22,7 +22,7 @@ class Battle {
         level: 1,
       }, this),
       "enemy2": new Combatant({
-        ...Pizzas.f001,
+        ...Champs.j4,
         team: "enemy",
         hp: 25,
         maxHp: 50,

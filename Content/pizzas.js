@@ -4,26 +4,26 @@ window.Typing = {
   fighting: "fighting",
 }
 
-window.Pizzas = {
-  "s001": {
+window.Champs = {
+  "zac": {
     name: "Zac",
     type: Typing.poison,
     src: "/images/characters/pizzas/champs/tile000.png",
-    icon: "/images/icons/spicy.png",
-    actions: [ "saucyStatus", "clumsyStatus", "damage1" ],
+    icon: "/images/icons/potion_green.png",
+    actions: [ "zacq", "saucyStatus", "clumsyStatus" ],
   },
-  "v001": {
+  "fizz": {
     name: "Fizz",
     type: Typing.water,
     src: "/images/characters/pizzas/champs/tile001.png",
-    icon: "/images/icons/veggie.png",
-    actions: [ "damage1" ],
+    icon: "/images/icons/water.png",
+    actions: [ "zacq" ],
   },
-  "f001": {
-    name: "Portobello Express",
+  "j4": {
+    name: "Jarvan 4",
     type: Typing.fighting,
     src: "/images/characters/pizzas/tile002.png",
     icon: "/images/icons/fungi.png",
-    actions: [ "damage1" ],
+    actions: [ "zacq" ],
   }
 }

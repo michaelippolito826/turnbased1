@@ -54,10 +54,18 @@
   padding-right: 2px;
   margin: 0;
 }
-.Combatant_type {
+.water {
+  position: absolute;
+  left: 2px;
+  top: -1px;
+  width: 16px;
+  height: 16px;
+}
+
+.poison {
   position: absolute;
   left: 3px;
-  top: -2px;
+  top: 0px;
   width: 16px;
   height: 16px;
 }
