@@ -55,9 +55,18 @@
   padding-right: 2px;
   margin: 0;
 }
+
 .water {
   position: absolute;
   left: 2px;
+  top: -1px;
+  width: 16px;
+  height: 16px;
+}
+
+.ice {
+  position: absolute;
+  left: 3px;
   top: -1px;
   width: 16px;
   height: 16px;

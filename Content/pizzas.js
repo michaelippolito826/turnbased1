@@ -10,14 +10,14 @@ window.Champs = {
     name: "Zac",
     type: Typing.poison,
     src: "/images/characters/pizzas/champs2/singed.png",
-    icon: "/images/icons/potion_green.png",
+    icon: "/images/icons/poison.png",
     actions: ["zacq", "saucyStatus", "clumsyStatus"],
   },
   ashe: {
     name: "Ashe",
     type: Typing.ice,
     src: "/images/characters/pizzas/champs/tile021.png",
-    icon: "/images/icons/potion_green.png",
+    icon: "/images/icons/ice.png",
     actions: ["zacq", "saucyStatus", "clumsyStatus"],
   },
   fizz: {
