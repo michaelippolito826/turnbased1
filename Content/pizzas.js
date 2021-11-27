@@ -3,35 +3,35 @@ window.Typing = {
   water: "water",
   fighting: "fighting",
   ice: "ice",
-}
+};
 
 window.Champs = {
-  "zac": {
+  zac: {
     name: "Zac",
     type: Typing.poison,
-    src: "/images/characters/pizzas/champs/tile000.png",
+    src: "/images/characters/pizzas/champs2/singed.png",
     icon: "/images/icons/potion_green.png",
-    actions: [ "zacq", "saucyStatus", "clumsyStatus" ],
+    actions: ["zacq", "saucyStatus", "clumsyStatus"],
   },
-  "ashe": {
+  ashe: {
     name: "Ashe",
     type: Typing.ice,
     src: "/images/characters/pizzas/champs/tile021.png",
     icon: "/images/icons/potion_green.png",
-    actions: [ "zacq", "saucyStatus", "clumsyStatus" ],
+    actions: ["zacq", "saucyStatus", "clumsyStatus"],
   },
-  "fizz": {
+  fizz: {
     name: "Fizz",
     type: Typing.water,
     src: "/images/characters/pizzas/champs/tile001.png",
     icon: "/images/icons/water.png",
-    actions: [ "zacq" ],
+    actions: ["zacq"],
   },
-  "j4": {
+  j4: {
     name: "Jarvan 4",
     type: Typing.fighting,
     src: "/images/characters/pizzas/tile002.png",
     icon: "/images/icons/fungi.png",
-    actions: [ "zacq" ],
-  }
-}
+    actions: ["zacq"],
+  },
+};
