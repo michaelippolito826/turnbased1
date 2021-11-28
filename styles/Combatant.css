@@ -6,7 +6,7 @@
 }
 
 .Battle .Combatant {
-  transform: scale(4);
+  transform: scale(8);
   transition: opacity 0.4s;
 }
 .Battle .Combatant[data-active="false"] {
@@ -22,7 +22,7 @@
 }
 .Combatant[data-team="enemy"] {
   top: 10%;
-  right: 77px;
+  right: 25%;
 }
 
 .Combatant_character_crop {
@@ -139,13 +139,13 @@
     no-repeat;
 }
 .Pizza[data-team="player"] {
-  bottom: 40%;
-  left: 25%;
+  bottom: 25%;
+  left: 20%;
 }
 .Pizza[data-team="enemy"] {
   top: 20%;
   right: 100px;
-  transform: scale(-4, 4);
+  transform: scale(-8, 8);
 }
 .Pizza[data-active="false"] {
   opacity: 0;

@@ -4,19 +4,19 @@
   position: absolute;
 }
 .KeyboardMenu button {
-  display: flex;
+  display: block;
   align-items: center;
   width: 100%;
+  height: fit-content;
   text-align: left;
   -webkit-appearance: none;
   border: 0;
   background: none;
-  height: 20px;
   cursor: pointer;
   font-family: inherit;
   padding: 0;
   padding-left: 1em;
-  font-size: 10px;
+  font-size: 200%;
 }
 .KeyboardMenu button:focus {
   background: var(--menu-selected-background);
@@ -54,7 +54,9 @@
 
 /* Battle specific */
 .Battle .KeyboardMenu {
-  right: 0;
+  width: 25%;
+  height: 25%;
+  position: absolute;
   bottom: 0;
-  width: 140px;
+  right: 0;
 }
