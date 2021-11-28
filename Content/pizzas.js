@@ -6,8 +6,8 @@ window.Typing = {
 };
 
 window.Champs = {
-  zac: {
-    name: "Zac",
+  singed: {
+    name: "Singed",
     type: Typing.poison,
     src: "/images/characters/pizzas/champs2/singed.png",
     icon: "/images/icons/poison.png",

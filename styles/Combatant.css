@@ -6,7 +6,7 @@
 }
 
 .Battle .Combatant {
-  transform: scale(2);
+  transform: scale(4);
   transition: opacity 0.4s;
 }
 .Battle .Combatant[data-active="false"] {
@@ -17,11 +17,11 @@
 }
 
 .Combatant[data-team="player"] {
-  left: 46px;
-  top: 70px;
+  left: 25%;
+  top: 35%;
 }
 .Combatant[data-team="enemy"] {
-  top: 28px;
+  top: 10%;
   right: 77px;
 }
 
@@ -133,19 +133,19 @@
 
 .Pizza {
   position: absolute;
-  transform: scale(2);
+  transform: scale(8);
   transition: opacity 0.4s, transform 0.4s;
   background: url(/images/characters/pizzas/pizza-shadow.png) no-repeat
     no-repeat;
 }
 .Pizza[data-team="player"] {
-  bottom: 73px;
-  left: 51px;
+  bottom: 40%;
+  left: 25%;
 }
 .Pizza[data-team="enemy"] {
-  top: 47px;
+  top: 20%;
   right: 100px;
-  transform: scale(-2, 2);
+  transform: scale(-4, 4);
 }
 .Pizza[data-active="false"] {
   opacity: 0;
