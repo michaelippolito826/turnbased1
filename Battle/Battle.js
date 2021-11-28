@@ -34,7 +34,7 @@ class Battle {
         level: 1,
       }, this),
       "enemy2": new Combatant({
-        ...Champs.j4,
+        ...Champs.vi,
         team: "enemy",
         hp: 25,
         maxHp: 50,

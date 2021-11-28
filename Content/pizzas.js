@@ -27,10 +27,10 @@ window.Champs = {
     icon: "/images/icons/water.png",
     actions: ["zacq"],
   },
-  j4: {
-    name: "Jarvan 4",
+  vi: {
+    name: "Vi",
     type: Typing.fighting,
-    src: "/images/characters/pizzas/tile002.png",
+    src: "/images/characters/pizzas/champs2/vi.png",
     icon: "/images/icons/fungi.png",
     actions: ["zacq"],
   },
