@@ -2,7 +2,7 @@ class Battle {
   constructor() {
     this.combatants = {
       "player1": new Combatant({
-        ...Champs.zac,
+        ...Champs.singed,
         team: "player",
         hp: 150,
         maxHp: 150,
