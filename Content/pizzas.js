@@ -11,7 +11,7 @@ window.Champs = {
     type: Typing.poison,
     src: "/images/characters/pizzas/champs2/singed.png",
     icon: "/images/icons/poison.png",
-    actions: ["zacq", "saucyStatus", "clumsyStatus"],
+    actions: ["poison_trail", "saucyStatus", "clumsyStatus"],
   },
   ashe: {
     name: "Ashe",
@@ -25,7 +25,7 @@ window.Champs = {
     type: Typing.water,
     src: "/images/characters/pizzas/champs/tile001.png",
     icon: "/images/icons/water.png",
-    actions: ["zacq"],
+    actions: ["poison_trail"],
   },
   vi: {
     name: "Vi",

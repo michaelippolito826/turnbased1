@@ -1,11 +1,13 @@
 window.Actions = {
-  zacq: {
-    name: "Stretching Strikes",
-    description: "Clap Dem Cheeks (30)",
+  poison_trail: {
+    name: "Poison Trail",
+    description: "Does minor damage and causes poison",
     success: [
       { type: "textMessage", text: "{CASTER} uses {ACTION}!"},
-      { type: "animation", animation: "spin"},
-      { type: "stateChange", damage: 30}
+      { type: "animation", animation: "glob", color: "#4db560" },
+      { type: "stateChange", damage: 20},
+      { type: "stateChange", status: { type: "poison", expiresIn: 3 } }
+      //could cause problems
     ]
   },
   saucyStatus: {

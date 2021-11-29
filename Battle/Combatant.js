@@ -98,6 +98,12 @@ class Combatant {
         { type: "stateChange", recover: 5, onCaster: true }
       ]
     } 
+    if (this.status?.type === "poison") {
+      return [
+        { type: "textMessage", text: "Feelin' saucy!" },
+        { type: "stateChange", recover: 5, onCaster: true }
+      ]
+    }
     return [];
   }
 
