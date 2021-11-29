@@ -8,6 +8,7 @@ window.Typing = {
 window.Champs = {
   singed: {
     name: "Singed",
+    description: "Singed",
     type: Typing.poison,
     src: "/images/characters/pizzas/champs2/singed.png",
     icon: "/images/icons/poison.png",
@@ -18,7 +19,7 @@ window.Champs = {
     type: Typing.ice,
     src: "/images/characters/pizzas/champs/tile021.png",
     icon: "/images/icons/ice.png",
-    actions: ["zacq", "saucyStatus", "clumsyStatus"],
+    actions: ["poison_trail", "saucyStatus", "clumsyStatus"],
   },
   fizz: {
     name: "Fizz",
@@ -32,6 +33,6 @@ window.Champs = {
     type: Typing.fighting,
     src: "/images/characters/pizzas/champs2/vi.png",
     icon: "/images/icons/fungi.png",
-    actions: ["zacq"],
+    actions: ["poison_trail"],
   },
 };
