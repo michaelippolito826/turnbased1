@@ -4,8 +4,8 @@ class Battle {
       "player1": new Combatant({
         ...Champs.zac,
         team: "player",
-        hp: 30,
-        maxHp: 50,
+        hp: 150,
+        maxHp: 150,
         xp: 75,
         maxXp: 100,
         level: 1,
@@ -27,8 +27,8 @@ class Battle {
       "enemy1": new Combatant({
         ...Champs.fizz,
         team: "enemy",
-        hp: 20,
-        maxHp: 50,
+        hp: 150,
+        maxHp: 150,
         xp: 20,
         maxXp: 100,
         level: 1,

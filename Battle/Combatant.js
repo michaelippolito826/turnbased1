@@ -100,7 +100,7 @@ class Combatant {
     } 
     if (this.status?.type === "poison") {
       return [
-        { type: "textMessage", text: "Feelin' saucy!" },
+        { type: "textMessage", text: "Poisoned!" },
         { type: "stateChange", recover: 5, onCaster: true }
       ]
     }
