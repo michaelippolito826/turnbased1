@@ -15,7 +15,7 @@ window.Actions = {
     description: "Does major normal damage (50)!",
     success: [
       { type: "textMessage", text: "{CASTER} uses {ACTION}!"},
-      { type: "animation", animation: "battle-spin-right"},
+      // { type: "animation", animation: "battle-spin-right"},
       { type: "stateChange", damage: 50},
     ]
   },
