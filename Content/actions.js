@@ -1,7 +1,7 @@
 window.Actions = {
   poison_trail: {
     name: "Poison Trail",
-    description: "Does minor damage and causes poison",
+    description: "Does minor damage and causes poison (20 + Poison)!",
     success: [
       { type: "textMessage", text: "{CASTER} uses {ACTION}!"},
       { type: "animation", animation: "glob", color: "#4db560" },
@@ -10,6 +10,25 @@ window.Actions = {
       { type: "stateChange", damage: 20},
     ]
   },
+  fling: {
+    name: "Fling",
+    description: "Does major normal damage (50)!",
+    success: [
+      { type: "textMessage", text: "{CASTER} uses {ACTION}!"},
+      { type: "animation", animation: "battle-spin-right"},
+      { type: "stateChange", damage: 50},
+    ]
+  },
+  insanity_potion: {
+    name: "Insanity Potion",
+    description: "Recover HP for 3 turns and ",
+    success: [
+      { type: "textMessage", text: "{CASTER} uses {ACTION}!"},
+      { type: "stateChange", recover: 50, },
+      { type: "textMessage", text: "{CASTER} recovers HP!", },
+    ]
+  },
+
   saucyStatus: {
     name: "Tomato Squeeze",
     description: "Applies the Saucy status",
