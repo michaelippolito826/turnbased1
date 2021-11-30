@@ -28,7 +28,6 @@ class BattleEvent {
       target.update({
         hp: target.hp - damage,
       });
-
       //start blinking
       target.pizzaElement.classList.add("battle-damage-blink");
     }
@@ -47,8 +46,8 @@ class BattleEvent {
       who.update({
         status: { ...status },
       });
-      this.stateChange(); // testing if this works
     }
+
     if (status === null) {
       who.update({
         status: null,
