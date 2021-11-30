@@ -34,7 +34,7 @@ class Battle {
         {
           ...Champs.fizz,
           team: "enemy",
-          hp: 10,
+          hp: 75,
           maxHp: 150,
           xp: 20,
           maxXp: 100,

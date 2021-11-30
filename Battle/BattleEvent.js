@@ -47,6 +47,7 @@ class BattleEvent {
       who.update({
         status: { ...status },
       });
+      this.stateChange(); // testing if this works
     }
     if (status === null) {
       who.update({
