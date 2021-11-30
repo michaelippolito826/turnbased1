@@ -21,6 +21,7 @@ window.Actions = {
   },
   insanity_potion: {
     name: "Insanity Potion",
+    targetType: "friendly",
     description: "Recover HP for 3 turns and ",
     success: [
       { type: "textMessage", text: "{CASTER} uses {ACTION}!" },
