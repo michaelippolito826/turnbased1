@@ -5,9 +5,9 @@ window.Actions = {
     success: [
       { type: "textMessage", text: "{CASTER} uses {ACTION}!" },
       { type: "animation", animation: "glob", color: "#4db560" },
-      { type: "stateChange", status: null },
-      { type: "stateChange", status: { type: "poison", expiresIn: 3 } },
-      { type: "stateChange", damage: 20 },
+      { type: "stateChange", status: null, status: { type: "poison", expiresIn: 3 }, damage: 20 },
+      // { type: "stateChange", status: { type: "poison", expiresIn: 3 } },
+      // { type: "stateChange", damage: 20 },
     ],
   },
   fling: {
