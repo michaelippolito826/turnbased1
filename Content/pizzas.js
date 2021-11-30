@@ -9,7 +9,7 @@ window.Champs = {
   singed: {
     name: "Singed",
     description: "Singed",
-    // type: Typing.poison,
+    type: Typing.poison,
     src: "/images/characters/pizzas/champs2/singed.png",
     icon: "/images/icons/poison.png",
     actions: ["poison_trail", "fling", "insanity_potion"],
