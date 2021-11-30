@@ -100,7 +100,7 @@ class Combatant {
     if (this.status?.type === "poison") {
       return [
         { type: "textMessage", text: "Poisoned!" },
-        { type: "stateChange", damage: 10, onCaster: false }
+        { type: "stateChange", damage: 10, onCaster: true }
       ]
     }
     return [];
