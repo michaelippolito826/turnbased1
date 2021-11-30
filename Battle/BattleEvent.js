@@ -46,8 +46,6 @@ class BattleEvent {
       who.update({
         status: { ...status },
       });
-      this.battle.playerTeam.update();
-      this.battle.enemyTeam.update();
     }
 
     if (status === null) {
