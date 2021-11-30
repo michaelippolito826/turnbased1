@@ -81,7 +81,6 @@ class Combatant {
   }
 
   getReplacedEvents(originalEvents) {
-
     if (this.status?.type === "clumsy" && utils.randomFromArray([true, false, false])) {
       return [
         { type: "textMessage", text: `${this.name} flops over!` },
@@ -92,12 +91,12 @@ class Combatant {
   }
 
   getPostEvents() {
-    if (this.status?.type === "saucy") {
-      return [
-        { type: "textMessage", text: "Feelin' saucy!" },
-        { type: "stateChange", recover: 5, onCaster: true }
-      ]
-    } 
+    // if (this.status?.type === "saucy") {
+    //   return [
+    //     { type: "textMessage", text: "Feelin' saucy!" },
+    //     { type: "stateChange", recover: 5, onCaster: true }
+    //   ]
+    // } 
     if (this.status?.type === "poison") {
       return [
         { type: "textMessage", text: "Poisoned!" },

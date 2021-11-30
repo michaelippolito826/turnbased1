@@ -7,7 +7,6 @@ window.Actions = {
       { type: "animation", animation: "glob", color: "#4db560" },
       { type: "stateChange", damage: 20},
       { type: "stateChange", status: { type: "poison", expiresIn: 3 } }
-      //could cause problems
     ]
   },
   saucyStatus: {

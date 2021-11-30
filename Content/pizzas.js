@@ -12,14 +12,14 @@ window.Champs = {
     type: Typing.poison,
     src: "/images/characters/pizzas/champs2/singed.png",
     icon: "/images/icons/poison.png",
-    actions: ["poison_trail", "saucyStatus", "clumsyStatus"],
+    actions: ["poison_trail"],
   },
   ashe: {
     name: "Ashe",
     type: Typing.ice,
     src: "/images/characters/pizzas/champs/tile021.png",
     icon: "/images/icons/ice.png",
-    actions: ["poison_trail", "saucyStatus", "clumsyStatus"],
+    actions: ["poison_trail"],
   },
   fizz: {
     name: "Fizz",
